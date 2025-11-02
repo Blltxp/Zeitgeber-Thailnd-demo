@@ -1,0 +1,72 @@
+:root {
+  /* Design tokens */
+  --brand-red: #e11d1d;
+  --accent-amber: #f59e0b;
+  --page-bg: #f9fafb; /* gray-50 */
+  --text-700: #374151;
+  --overlay-dark: rgba(0, 0, 0, 0.6);
+
+  /* Layout tokens */
+  --container-max-width: 72rem; /* ~max-w-6xl */
+  --site-header-height: 56px; /* default header height */
+  --site-footer-padding: 2rem;
+
+  /* Motion tokens */
+  --parallax-max-translate: 36px;
+  --card-hover-scale: 1.035;
+
+  /* Type scale */
+  --h1: 2rem; /* adjust H1 as needed */
+  --h2: 1.375rem;
+  --base: 1rem;
+  --small: 0.875rem;
+}
+
+/* Basic page baseline */
+html,
+body {
+  height: 100%;
+  background: var(--page-bg);
+  color: var(--text-700);
+  font-family: "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container utility (if not using Tailwind container) */
+.container-centered {
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Focus visible standard */
+:focus {
+  outline: none;
+}
+.focus-ring {
+  box-shadow: 0 0 0 4px rgba(225, 29, 29, 0.16); /* ring-red-300 soft */
+  border-radius: 6px;
+}
+
+/* Compact utilities */
+.compact-card {
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+}
+.compact-padding {
+  padding: 0.75rem;
+}
+
+/* Respect prefers-reduced-motion fallback */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

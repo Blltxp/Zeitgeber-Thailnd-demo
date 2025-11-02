@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-Garamond: "Cormorant Garamond", "serif";
+  --font-Thai: "Noto Sans Thai", "sans-serif";
+  --font-Playfair: "Playfair Display", "serif";
+  --font-DmSerif: "DM Serif Display", "serif";
+  --font-Quicksand: "Quicksand", "sans-serif";
+  --font-BebasNeue: "Bebas Neue", "sans-serif";
+}

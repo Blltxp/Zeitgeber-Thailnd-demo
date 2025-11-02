@@ -149,7 +149,7 @@ const Navbar: React.FC = () => {
             <li>
               <Link
                 className="hover:text-red-500"
-                to="/products"
+                to="/productsPage"
                 onClick={() => setIsOpen(false)}
               >
                 Products
@@ -158,7 +158,7 @@ const Navbar: React.FC = () => {
             <li>
               <Link
                 className="hover:text-red-500"
-                to="/about"
+                to="/About Us"
                 onClick={() => setIsOpen(false)}
               >
                 About Us

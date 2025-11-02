@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
-import AboutUs from "./pages/about us.tsx";
+import AboutUs from "./pages/aboutUs.tsx";
 import ProductPage from "./pages/product.tsx";
 
 function App() {

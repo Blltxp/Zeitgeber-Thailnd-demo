@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             </span>
           </div>
 
-          <p className="text-sm mb-2 font-thai">
+          <p className="text-sm mb-2 font-Thai">
             2439 ซอยพัฒนาการ 47 ถนนพัฒนาการ แขวงพัฒนาการ เขตสวนหลวง
             กรุงเทพมหานคร 10250
           </p>
@@ -81,12 +81,14 @@ const Footer: React.FC = () => {
           <h4 className="text-lg font-semibold mb-4 font-Thai">
             ผู้จำหน่ายม่านบังตาและวัสดุตกแต่งบ้านครบวงจร
           </h4>
-          <p className="text-sm ">
+          <p className="text-sm font-Thai ">
             • ม่านม้วน มู่ลี่ไม้ มู่ลี่โฟม และม่านปรับแสง
           </p>
-          <p className="text-sm ">• กระเบื้องยางคุณภาพสูง</p>
-          <p className="text-sm mb-4 ">• อินทีเรียร์ฟิล์ม และซิปไบลน์</p>
-          <p className="text-sm">
+          <p className="text-sm font-Thai">• กระเบื้องยางคุณภาพสูง</p>
+          <p className="text-sm mb-4 font-Thai">
+            • อินทีเรียร์ฟิล์ม และซิปไบลน์
+          </p>
+          <p className="text-sm font-Thai">
             และวัสดุตกแต่งอีกหลากหลายสำหรับบ้านสวยของคุณ
           </p>
           <div className="flex gap-4">

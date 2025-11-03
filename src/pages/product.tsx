@@ -23,7 +23,7 @@ import FB_018 from "../assets/image/Curtain/ผ้าม่าน Blackout/FB-01
 import FB_019 from "../assets/image/Curtain/ผ้าม่าน Blackout/FB-019.png";
 
 // ✅ รูปผ้าม่านห่วงตาไก่
-import ECT05_01 from "../assets/image/Curtain/ผ้าม่านห่วงตาไก่ สำเร็จรูป 1/ECT05-01.png";
+import ECT04_01 from "../assets/image/Curtain/ผ้าม่านห่วงตาไก่ สำเร็จรูป 1/ECT04-01.png";
 import ECT05_02 from "../assets/image/Curtain/ผ้าม่านห่วงตาไก่ สำเร็จรูป 1/ECT05-02.png";
 import ECT05_03 from "../assets/image/Curtain/ผ้าม่านห่วงตาไก่ สำเร็จรูป 1/ECT05-03.png";
 import ECT05_04 from "../assets/image/Curtain/ผ้าม่านห่วงตาไก่ สำเร็จรูป 1/ECT05-04.png";
@@ -92,7 +92,7 @@ const products = [
     title: "ผ้าม่านห่วงตาไก่สำเร็จรูป ECT05-01",
     category: "ผ้าม่าน",
     price: 650,
-    image: ECT05_01,
+    image: ECT04_01,
   },
   {
     id: 10,

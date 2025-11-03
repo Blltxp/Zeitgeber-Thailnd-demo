@@ -122,7 +122,7 @@ const ProductsPage: React.FC = () => {
   const [sortBy, setSortBy] = useState<string>("default");
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
 
-  const categories = ["ทั้งหมด", "แจกัน", "มูลี่", "ผ้าม่าน"];
+  const categories = ["ทั้งหมด", "แจกัน", "มู่ลี่", "ผ้าม่าน"];
 
   const filteredProducts =
     selectedCategory === "ทั้งหมด"

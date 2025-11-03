@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import AboutUs from "./pages/aboutUs.tsx";
-import ProductPage from "./pages/product.tsx";
+import ProductsPage from "./pages/product.tsx";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About Us" element={<AboutUs />} />
-          <Route path="/ProductsPage" element={<ProductPage />} />
+          <Route path="/ProductsPage" element={<ProductsPage />} />
 
         </Routes>
       </div>

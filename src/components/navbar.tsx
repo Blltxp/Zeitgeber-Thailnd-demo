@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
           <Link to="/" className="hover:text-red-500 transition">
             หน้าแรก
           </Link>
-          <Link to="/ProductPage" className="hover:text-red-500 transition">
+          <Link to="/ProductsPage" className="hover:text-red-500 transition">
             สินค้า
           </Link>
           <Link to="/About Us" className="hover:text-red-500 transition">
@@ -143,7 +143,7 @@ const Navbar: React.FC = () => {
                 to="/"
                 onClick={() => setIsOpen(false)}
               >
-                Home
+                หน้าแรก
               </Link>
             </li>
             <li>
@@ -152,7 +152,7 @@ const Navbar: React.FC = () => {
                 to="/ProductsPage"
                 onClick={() => setIsOpen(false)}
               >
-                Products
+                สินค้า
               </Link>
             </li>
             <li>
@@ -161,7 +161,7 @@ const Navbar: React.FC = () => {
                 to="/About Us"
                 onClick={() => setIsOpen(false)}
               >
-                About Us
+                เกี่ยวกับเรา
               </Link>
             </li>
             <li>
@@ -170,7 +170,7 @@ const Navbar: React.FC = () => {
                 to="/contact"
                 onClick={() => setIsOpen(false)}
               >
-                Contact
+                ติดต่อเรา
               </Link>
             </li>
           </ul>

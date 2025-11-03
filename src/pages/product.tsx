@@ -117,7 +117,7 @@ const products = [
   },
 ];
 
-const ProductPage: React.FC = () => {
+const ProductsPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("ทั้งหมด");
   const [sortBy, setSortBy] = useState<string>("default");
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
@@ -390,4 +390,4 @@ const ProductPage: React.FC = () => {
   );
 };
 
-export default ProductPage;
+export default ProductsPage;

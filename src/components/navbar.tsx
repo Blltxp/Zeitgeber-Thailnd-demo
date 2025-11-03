@@ -135,7 +135,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-transparent shadow transition-all duration-300 text-center">
+        <div className="md:hidden bg-transparent shadow transition-all duration-300 text-center font-Thai">
           <ul className="flex flex-col space-y-4 px-6 py-4 font-medium">
             <li>
               <Link

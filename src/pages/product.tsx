@@ -89,7 +89,7 @@ const products = [
   },
   {
     id: 9,
-    title: "ผ้าม่านห่วงตาไก่สำเร็จรูป ECT05-01",
+    title: "ผ้าม่านห่วงตาไก่สำเร็จรูป ECT04-01",
     category: "ผ้าม่าน",
     price: 650,
     image: ECT04_01,

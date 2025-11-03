@@ -360,16 +360,16 @@ const ProductsPage: React.FC = () => {
                   <p className="text-xs text-gray-500 mb-2 uppercase tracking-wide text-center">
                     {product.category}
                   </p>
-                  <h3 className="text-base font-semibold text-gray-900 mb-3 line-clamp-2 min-h-12">
+                  <h3 className="text-base font-semibold text-gray-900 mb-3 line-clamp-2 min-h-12 font-Anuphan">
                     {product.title}
                   </h3>
-                  <div className="items-center gap-2">
+                  <div className="items-center gap-2 font-Anuphan">
                     {product.originalPrice ? (
                       <>
-                        <span className="text-gray-400 line-through text-sm">
+                        <span className="text-gray-400 line-through text-sm font-Anuphan">
                           ฿{product.originalPrice.toLocaleString()}
                         </span>
-                        <span className="text-amber-600 font-bold text-lg">
+                        <span className="text-amber-600 font-bold text-lg font-Anuphan">
                           ฿{product.price.toLocaleString()}
                         </span>
                       </>

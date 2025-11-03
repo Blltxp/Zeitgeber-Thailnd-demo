@@ -9,6 +9,7 @@ export default {
         dmserif: ['"DM Serif Display"', "serif"],
         playfair: ['"Playfair Display"', "serif"],
         thai: ['"Noto Sans Thai"', "sans-serif"],
+        Anuphan: ['"Anuphan"', "sans-serif"],
       },
     },
   },
@@ -16,7 +17,8 @@ export default {
     'font-garamond',
     'font-dmserif',
     'font-playfair',
-    'font-thai'
+    'font-thai',
+    'font-Anuphan'
   ],
   plugins: [],
 };

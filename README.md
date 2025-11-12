@@ -15,9 +15,9 @@
 
 ---
 
-### 🔃 ตัวกรองสินค้า (Product Sort)
+### 🔃 ตัวกรองสินค้า (Product filter)
 **Product Sorting Interface**
-![Product Sort](preview/Product-Sort.png)
+![Product Sort](preview/Product-Filter.png)
 
 ---
 
